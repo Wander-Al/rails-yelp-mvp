@@ -3,7 +3,7 @@
 <p>Phone number: <%= @restaurant.phone_number %></p>
 <p>Address: <%= @restaurant.address %></p>
 <h5>Reviews:</h5>
-<% @restaurant.reviews.each do |review| %>
+<% @reviews.each do |review| %>
   <p>Rating:<%= review.rating %></p>
   <p><%= review.content %></p>
 <% end %>
